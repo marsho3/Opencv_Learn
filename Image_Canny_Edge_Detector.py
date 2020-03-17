@@ -36,7 +36,7 @@ def Tunning_pheripherals():
 
 
 def main():
-    raw_image = cv2.imread("/Users/kaisiuho/ImageProcess/lena512rgb.png")
+    raw_image = cv2.imread("/Users/kaisiuho/Opencv_Learn/lena512rgb.png")
     cv2.imshow('Raw',raw_image)
     Tunning_pheripherals()
     while True:
